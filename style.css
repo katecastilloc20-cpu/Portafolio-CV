@@ -1,11 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
-box-sizing: border-box;
+    box-sizing: border-box;
+    colo
 }
 
-.encabezado{
-    background-color: rgb(100, 61, 10);
-    height: 150px;
-    
+.encabezado {
+
+    height: 80px;
+
+
+
+
+
+}
+
+.container {
+
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+position: relatives;
+justify-content: flex-end;
+
+
+
+
+}
+
+h1 {
+
+    height: 50px;
+
+
+
+
+
+}
+
+p {
+
+    border: 2px solid black;
+
+
 }
