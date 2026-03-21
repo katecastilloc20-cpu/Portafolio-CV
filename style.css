@@ -19,6 +19,7 @@
     justify-content: flex-end;
     border-bottom: 3px solid black;
     padding-bottom: 10px;
+   
 }
 
 .container a {
@@ -37,7 +38,7 @@
     color: white;
 }
 
-.nombre {
+.nombre{
 
     text-align: center;
     margin-bottom: 30px;
@@ -85,12 +86,21 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
+.habilidades h2,
+.objetivo h2,
+.intereses h2{
+    margin-bottom: 15px;
+    font-size: 22px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
 .secciones {
     display: flex;
     justify-content: center;
     gap: 60px;
     max-width: 1200px;
     margin: 50px auto;
+    align-items: stretch;
 }
 
 .habilidades,
@@ -99,8 +109,10 @@
     border: 2px solid black;
     padding: 20px;
     border-radius: 10px;
-    width: 800px;
     transition: 0.3s;
+    max-width: 350px;
+  flex: 1;
+
 
 
 }
@@ -122,6 +134,14 @@
 .intereses:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.habilidades {
+  flex: 1;
+}
+.habilidades ul {
+    padding-left: 20px;
+
 }
 
 .footer {
