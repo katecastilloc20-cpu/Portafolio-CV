@@ -2,16 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    colo
 }
+
 
 .encabezado {
 
     height: 80px;
-
-
-
-
 
 }
 
@@ -20,27 +16,24 @@
     display: flex;
     gap: 15px;
     font-size: 25px;
-position: relatives;
-justify-content: flex-end;
-
-
-
+    position: relatives;
+    justify-content: flex-end;
 
 }
 
-h1 {
-
-    height: 50px;
-
-
-
-
+h1{
+text-align: center;
 
 }
 
-p {
+.logo img{
 
-    border: 2px solid black;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+object-position: top;
+justify-content: center;
 
 
 }
