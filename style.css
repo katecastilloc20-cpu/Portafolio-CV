@@ -18,22 +18,39 @@
     font-size: 25px;
     position: relatives;
     justify-content: flex-end;
+    border-bottom: 3px solid black;
 
 }
 
-h1{
-text-align: center;
+.nombre{
 
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .logo img{
 
-width: 150px;
-height: 150px;
+width: 200px;
+height: 200px;
 border-radius: 50%;
 object-fit: cover;
 object-position: top;
 justify-content: center;
 
 
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.info{
+    max-width: 80%;
+    font-size: 18px;
+    
 }
