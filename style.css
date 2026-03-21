@@ -1,13 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
 }
-
 
 .encabezado {
 
     height: 80px;
+    padding: 20px;
 
 }
 
@@ -15,42 +15,105 @@
 
     display: flex;
     gap: 15px;
-    font-size: 25px;
+    font-size: 18px;
     position: relatives;
     justify-content: flex-end;
     border-bottom: 3px solid black;
+    padding-bottom: 10px;
 
 }
 
-.nombre{
+.container div {
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 8px;
+
+
+
+}
+
+.container div:hover {
+
+    background-color: rgba(0, 0, 0, 0.752);
+    color: white;
+}
+
+.nombre {
 
     text-align: center;
     margin-bottom: 30px;
 }
 
-.logo img{
+.logo img {
 
-width: 200px;
-height: 200px;
-border-radius: 50%;
-object-fit: cover;
-object-position: top;
-justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    justify-content: center;
 
 
-}
-
-.perfil{
+.perfil {
     display: flex;
     align-items: center;
     gap: 150px;
     max-width: 900px;
     margin: 0 auto;
+    
+}
+
+.info {
+    max-width: 80%;
+    font-size: 18px;
+    text-align: justify;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    line-height: 1.5;
+    transition: 0.3s;
+
 
 }
 
-.info{
-    max-width: 80%;
-    font-size: 18px;
-    
+.info:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.secciones {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.habilidades,
+.objetivo,
+.intereses {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    transition: 0.3s;
+
+
+}
+
+.objetivo p {
+
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.intereses p {
+
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.habilidades:hover, .objetivo:hover, .intereses:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
