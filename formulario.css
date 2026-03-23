@@ -36,3 +36,84 @@
     background-color: rgba(0, 0, 0, 0.752);
     color: white;
 }
+
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+
+    flex: 1;
+}
+
+form{
+   display: flex;
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    gap: 5px;
+}
+
+input, textarea{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #f0f0f0;
+  border-color: black;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  outline: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  resize: vertical;
+}
+
+button {
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #333;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.contacto {
+    font-size: 17px;
+}
+
+footer h2 {
+  margin: 0;
+}
