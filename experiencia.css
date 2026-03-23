@@ -8,9 +8,7 @@
 
     height: 80px;
     padding: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1)
-
-
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1)
 }
 
 .container {
@@ -40,24 +38,24 @@
 }
 
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-main{
+main {
 
     flex: 1;
 }
 
 
-h1{
+h1 {
     text-align: center;
     font-size: 35px;
 }
 
-.experiencia{
+.experiencia {
     width: 90%;
     margin: 40px auto;
     display: flex;
@@ -65,27 +63,27 @@ h1{
     gap: 40px;
 }
 
-.card{
-  
+.card {
+
     width: 48%;
     border: 2px solid black;
     padding: 20px;
     border-radius: 10px;
     transition: 0.3s;
-    
+
 
 
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card h2 {
-  margin-bottom: 10px;
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
 }
 
 .footer {
@@ -101,7 +99,36 @@ h1{
 }
 
 footer h2 {
-  margin: 0;
+    margin: 0;
 }
 
+@media (max-width: 768px) {
 
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    h1 {
+        font-size: 26px;
+        margin-top: 10px;
+    }
+
+    .experiencia {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+
+}

@@ -120,3 +120,40 @@ button:hover {
 footer h2 {
   margin: 0;
 }
+
+@media (max-width: 768px){
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container a{
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    h1{
+        font-size: 26px;
+        margin-top: 10px;
+
+    }
+
+    form{
+        width: 90%;
+        max-width: 100%;
+        padding: 0 10px;
+    
+    }
+
+    input,textarea{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    button{
+        width: 100%;
+    }
+}
+
+
