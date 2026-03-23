@@ -36,3 +36,70 @@
     background-color: rgba(0, 0, 0, 0.752);
     color: white;
 }
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+
+    flex: 1;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.experiencia{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card{
+  
+    width: 48%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+
+
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.contacto {
+    font-size: 17px;
+}
+
+footer h2 {
+  margin: 0;
+}
+
+
